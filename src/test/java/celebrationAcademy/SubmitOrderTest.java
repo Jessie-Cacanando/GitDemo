@@ -2,9 +2,6 @@ package celebrationAcademy;
 
 import testComponents.BaseTest;
 
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -15,7 +12,6 @@ import celebrationAcademy.pageObjects.ConfirmationPage;
 import celebrationAcademy.pageObjects.OrderPage;
 import celebrationAcademy.pageObjects.ProductCatalogue;
 
-import java.io.File;
 import java.io.IOException;
 
 import java.util.HashMap;
