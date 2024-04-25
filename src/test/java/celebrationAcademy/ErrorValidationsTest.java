@@ -4,8 +4,6 @@ import testComponents.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.sun.net.httpserver.Authenticator.Retry;
-
 import celebrationAcademy.pageObjects.CartPage;
 import celebrationAcademy.pageObjects.ProductCatalogue;
 import java.io.IOException;
