@@ -33,12 +33,6 @@ public class ErrorValidationsTest extends BaseTest{
 		productCatalogue.addProductToCart(productName);
 		CartPage cartPage = productCatalogue.goToCartPage();
 		
-		System.out.println("Testing");
-		System.out.println("Testing");
-		System.out.println("Testing");
-		System.out.println("Testing");
-		System.out.println("Testing");
-		System.out.println("Testing");
 		Boolean match = cartPage.VerifyProductDisplay("ZARA COAT 33");
 		Assert.assertFalse(match);
 
